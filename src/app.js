@@ -21,7 +21,6 @@ app.use(cookieParser());
 import adminrouter from "../src/Modules/Admin/Admin.routes.js";
 import blog from "../src/Modules/Blogs/Blogs.Routes.js";
 
-//routes declearetion
 app.use("/api/v1/admin", adminrouter);
 app.use("/api/v1/blog", blog);
 
